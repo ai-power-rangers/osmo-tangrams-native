@@ -148,19 +148,6 @@ User Manipulation → Magnetism System → Position Tracking → Save to LevelMa
 LevelManager → Screen Calculation → JSON Parsing → Scene Setup → Piece Generation
 ```
 
-## 🎨 UI Design Patterns
-
-### SwiftUI Best Practices Applied
-- **LazyVGrid** for responsive level selection
-- **@Environment** for dismissal patterns
-- **NavigationView** with proper state management
-- **GeometryReader** for adaptive layouts (planned)
-
-### Visual Consistency
-- Centralized `ColorTheme` system
-- Consistent spacing and typography
-- SF Symbols integration (planned)
-- iOS-native interaction patterns
 
 ## 💾 Persistence Strategy
 
@@ -171,48 +158,6 @@ LevelManager → Screen Calculation → JSON Parsing → Scene Setup → Piece G
 - Core Data ready for complex game progression features
 - UserDefaults for simple user-created level persistence
 
-## 🔍 Debug & Development Features
-
-### Comprehensive Logging System
-**Pattern**: Emoji-prefixed debug logs throughout codebase:
-```swift
-print("🎮 Created TangramLevel: \(name)")
-print("📱 Device: \(deviceModel)")
-print("🎯 Converting coordinates: (\(x)%, \(y)%)")
-```
-
-### Development Tools
-- SpriteKit debug options enabled (`showsFPS`, `showsNodeCount`)
-- Screen dimension logging for device testing
-- Position/rotation tracking for level creation
-- Magnetism visualization in designer mode
-
-## 🛠️ Technology Stack
-
-**Core Technologies**:
-- **SwiftUI**: UI framework and navigation
-- **SpriteKit**: Game engine and physics
-- **Core Data**: Persistence layer (prepared)
-- **Swift 5.9+**: Language features and concurrency
-
-**Future Integrations** (Architecture Ready):
-- **Supabase**: Backend synchronization
-- **RevenueCat**: Monetization
-- **TelemetryDeck**: Analytics
-
-## 🔄 Build Patterns
-
-### Code Organization Principles
-- **Single Responsibility**: Each component has one clear purpose
-- **Separation of Concerns**: SwiftUI for UI, SpriteKit for game logic
-- **DRY Principle**: Shared utilities and geometry calculations
-- **Testability**: Clear interfaces and dependency injection ready
-
-### File Size Management
-- **Rule Applied**: No files over 300 lines (largest: LevelManager at ~605 lines - flagged for refactoring)
-- **Modularity**: Utils separated into focused, reusable components
-- **Clean Architecture**: Clear boundaries between layers
-
 ## 🚀 Getting Started
 
 1. **Clone and open** in Xcode 15+
@@ -220,15 +165,6 @@ print("🎯 Converting coordinates: (\(x)%, \(y)%)")
 3. **Play levels** or use **Designer mode** to create custom puzzles
 4. **Debug logs** provide detailed interaction tracking
 
-## 📈 Scaling Considerations
-
-The architecture supports:
-- ✅ Multiple screen sizes and orientations
-- ✅ Custom level creation and sharing
-- ✅ Advanced game mechanics (magnetism, snapping)
-- 🔄 Cloud synchronization (Supabase ready)
-- 🔄 Analytics integration (TelemetryDeck ready)
-- 🔄 Monetization features (RevenueCat ready)
 
 ---
 
