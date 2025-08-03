@@ -9,12 +9,12 @@ import SwiftUI
 
 @main
 struct Osmo_TangramApp: App {
-    let persistenceController = PersistenceController.shared
-
     var body: some Scene {
         WindowGroup {
             ContentView()
-                .environment(\.managedObjectContext, persistenceController.container.viewContext)
+                .onAppear {
+                    print("🎮 Osmo Tangram App started")
+                }
         }
     }
 }

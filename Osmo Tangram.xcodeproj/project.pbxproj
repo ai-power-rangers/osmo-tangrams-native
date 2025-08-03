@@ -6,8 +6,13 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		91D79D832E3FE86F00EDD4EF /* SpriteKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 91D79D812E3FE85A00EDD4EF /* SpriteKit.framework */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		91D79D4B2E3FE3A900EDD4EF /* Osmo Tangram.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Osmo Tangram.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		91D79D812E3FE85A00EDD4EF /* SpriteKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SpriteKit.framework; path = System/Library/Frameworks/SpriteKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -23,6 +28,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				91D79D832E3FE86F00EDD4EF /* SpriteKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -33,6 +39,7 @@
 			isa = PBXGroup;
 			children = (
 				91D79D4D2E3FE3A900EDD4EF /* Osmo Tangram */,
+				91D79D802E3FE85A00EDD4EF /* Frameworks */,
 				91D79D4C2E3FE3A900EDD4EF /* Products */,
 			);
 			sourceTree = "<group>";
@@ -43,6 +50,14 @@
 				91D79D4B2E3FE3A900EDD4EF /* Osmo Tangram.app */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		91D79D802E3FE85A00EDD4EF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				91D79D812E3FE85A00EDD4EF /* SpriteKit.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -261,6 +276,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -289,6 +305,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
